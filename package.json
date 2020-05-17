@@ -1,0 +1,19 @@
+{
+  "name": "typescript-base-package",
+  "version": "1.0.0",
+  "description": "Typescript base package with nanos typings",
+  "scripts": {
+    "build": "tstl",
+    "build:watch": "tstl --watch",
+    "generate:docs": "typedoc --options ./typedoc.json"
+  },
+  "author": "Daranix",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.2",
+    "typescript-to-lua": "^0.33.0"
+  },
+  "dependencies": {
+    "nanos-world-types": "github:Daranix/nanos-world-typescript"
+  }
+}
